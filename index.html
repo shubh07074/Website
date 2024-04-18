@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shubham Mistry</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/b5796bc5de.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="logo.png" alt="logo" class="logo">
+        <ul id="sidebar">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#Portfolio">Portfolio</a></li> 
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closebar()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openbar( )"></i>
+      </nav>
+      <div class="headtext">
+        <p>Data Scientist</p>
+        <h1>Hi, I <span>Shubham</span> <br>Mistry from India</h1>
+      </div>
+    </div>
+  </div>
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col1">
+          <img src="Self.jpg" alt="">
+        </div>
+        <div class="about-col2">
+          <h1 class="subtitle">About me</h1>
+          <p class="aboutpara">
+            I'm a 3rd year   student pursuing a Bachelor of Engineering in Computer Science & Technology at Gujarat Technological University. My passion lies in exploring the exciting fields of Data Science and Artificial Intelligence. I'm driven by curiosity and a desire to delve into the vast world of technology, seeking to innovate and make meaningful contributions to the future. Join me on this journey as I dive deeper into the realms of Data Science and AI, exploring new horizons and pushing boundaries.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link " onclick="opentab('Skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('Experience')"> Experience</p>
+            <p class="tab-links" onclick="opentab('Education')">Education</p>
+            <p class="tab-links" onclick="opentab('Certifications')">Certifications</p>
+          </div>
+          <div class="tab-contents active-tab" id="Skills">
+            <ul>
+              <li><span>Programming Languages</span><br>Basics of<br> 1.Python 2.Java 3.C  4. HTML/CSS/JS</li>
+              <li><span>Data Science Tools</span><br>NumPy,Pandas,Matplotlib</li>
+              <li><span>Machine Learning</span><br>Classification & Regression</li>
+              <li><span>Communication</span><br>Teamwork Abilities</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Experience">
+            <ul>
+              <li><span>Intern</span><br>1 Month virtual Internship/Masterclass On A.I. at Pantech.ai <br>also known as Pantech Solutions.</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Education">
+            <ul>
+              <li><span>2019</span><br>S.S.C. Form Gujarat Board</li>
+              <li><span>2021</span><br>H.S.C. Branch: Science Form Gujarat Board</li>
+              <li><span>2021-2025</span><br>pursuing B.E. Computer Science & Engineering Form G.T.U.</li>
+              <li><span>2023-2024</span><br>Pursuing the Specialized Machine Learning course provided by Andrew N.G. (Deep learning.AI) and Stanford
+                Online through platform of coursera. </li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="Certifications">
+          <ul>
+            <li><span>September 2,2023</span><br>One Month Al masterclass virtual Internship from Pantech Solutions. </li>
+            <li><span>January 10,2024</span><br>Completed Supervised Machine Learning algorithm Course.</li>
+          </ul>
+      </div>
+      </div>
+    </div>
+  </div>
+<!-- --------Services--------- -->
+<div id="services">
+  <div class="container">
+    <h1 class="subtitle">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web-Design</h2>
+        <p>
+          Having Basics of HTML,CSS,JS.
+        </p>
+        <a href="https://www.simplilearn.com/what-is-web-designing-article" target="_blank">Learn-More</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-file-excel"></i>
+        <h2>Model trainig & testing</h2>
+        <p>
+          Having little knowledge about model data Fitting, data import, data manipulation. 
+        </p>
+        <a href="https://oden.io/glossary/model-training/" target="_blank">Learn-More</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-database"></i>
+        <h2>Database SQL</h2>
+        <p>
+          Having Database Management System knowledge SQL. 
+        </p>
+        <a href="https://www.appdynamics.com/topics/database-management-systems" target="_blank">Learn-More</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- --------Portfolio--------- -->
+<div id="Portfolio">
+  <div class="container">
+    <h1 class="subtitle">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+       <img src="WORK1.jpg" alt="">
+       <div class="layer">
+        <h3>Face-Recognization</h3>
+        <p>Face recognition is a contactless and paperless technology that allows access and attendance for the end user by verifying the captured image, video, or identification points from the initially stored database.</p>
+        <a href="https://developers.google.com/ml-kit/vision/face-detection" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+       </div>
+      </div>
+      <div class="work">
+       <img src="WORK2.jpg" alt="">
+       <div class="layer">
+        <h3>Moving Object Detection</h3>
+        <p>Moving object detection is to recognize the physical movement of an object in a given place or region. By acting segmentation among moving objects and stationary area or region, the moving objects' motion can be tracked and thus analyzed later.</p>
+        <a href="https://developers.google.com/ml-kit/vision/object-detection" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+       </div>
+      </div>
+      <div class="work">
+        <img src="WORK3.jpg" alt="">
+        <div class="layer">
+          <h3>Learning</h3>
+          <p>I am deeply passionate about data analysis and machine learning, constantly seeking opportunities to expand my knowledge and skills in these fields. With a keen interest in practical applications, I dedicate myself to projects ranging from smart attendance systems to object detection. Each project fuels my curiosity and drives me to delve deeper into the realms of data science, striving for innovation and impactful solutions.</p>
+          <a href="https://www.coursera.org/learn/machine-learning/home/welcome" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+         </div>
+      </div>
+    </div>
+  </div>
+  <a href="https://www.upgrad.com/graduate-certificate-program-data-science-upgrad/?utm_source=website&utm_medium=Organic&utm_campaign=share_button_PP" target="_blank"  class="button">See more</a>
+</div>
+<!-- --------Contact--------- -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title"> Contact Me</h1>
+        <p> <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"> <i class="fa-solid fa-envelope"></i></a>shubhammistry0707@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>9558183399</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/shubham-mistry-261a2227a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_resumebuilder%3BGBVW6MMAShSCBJrWl85PZg%3D%3D" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://twitter.com/i_shubham_7" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href=" https://wa.me/9558183399" target="_blank"><i class="fa-brands fa-whatsapp"></i></i></a>
+          <a href="https://www.instagram.com/i_shubham7/?next=%2F" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://t.me/+REj8wAXG0FEwZjVl" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+        <a href="SHUBHAM_CV.pdf" download class="button button2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="Message"  rows="6" placeholder="Your Message" required></textarea>
+          <button type="submit" class="button button2">Submit</button> 
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>All rights reserved @Copyright2024 SHUBHAM MISTRY. </p>
+  </div>
+</div>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    for (var i = 0; i < tablinks.length; i++) {
+      tablinks[i].addEventListener("click", function() {
+        var tabname = this.textContent.trim();
+        for (var j = 0; j < tablinks.length; j++) {
+          tablinks[j].classList.remove("active-link");
+          tabcontents[j].classList.remove("active-tab");
+        }
+        this.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      });
+    }  
+
+    // Add this JavaScript at the end of your body tag
+
+document.querySelector('.fa-bars').addEventListener('click', function () {
+  document.querySelector('nav ul').classList.add('active');
+  document.querySelector('.fa-bars').style.display = 'none';
+  document.querySelector('.fa-xmark').style.display = 'block';
+});
+
+document.querySelector('.fa-xmark').addEventListener('click', function () {
+  document.querySelector('nav ul').classList.remove('active');
+  document.querySelector('.fa-bars').style.display = 'block';
+  document.querySelector('.fa-xmark').style.display = 'none';
+});
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidebar");
+    function openbar(){
+      sidemenu.style.right="0";
+    }
+    function closebar(){
+     sidemenu.style.right="-200px"; 
+    }
+  </script>
+</body>
+</html>
