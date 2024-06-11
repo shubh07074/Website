@@ -16,7 +16,7 @@
     #header {
       width: 80%;
       height: 100vh;
-      background-image: url(Pictures/Background.jpg);
+      background-image: url(Background.jpg);
       background-size: cover;
       background-position: center;
     }
